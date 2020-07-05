@@ -7,6 +7,10 @@ A Spring Boot & React polling app which includes Spring Security, JWT and MySQL.
 <br>
 ![Pollster](img/screenshot.png)
 
+## Docker-Compose
+Use the command `docker-compose up` to start-up the client, server and database containers. Hit `http://localhost:9090` to access the polling app. Individual components can be started by following the instructions below.
+
+
 ## Database
 Ensure MySQL server is installed and running on your local machine at the default http://localhost:3306.<br>
 <br>Create a database named polling_app in MySQL and change the `spring.datasource.username` and `spring.datasource.password` 
