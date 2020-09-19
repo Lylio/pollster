@@ -14,10 +14,10 @@ at http://localhost:9090/
 
 #### MySQL Database
 Database information can be located via terminal or MySQL Workbench with the following credentials:  
-port: 3307  
-database name: polls  
-database user: callicoder  
-database password: callicoder  
+port: **3307**  
+database name: **polls**  
+database user: **callicoder**  
+database password: **callicoder**  
 
 Log into the MySQL container with the command:  
 `mysql -h 127.0.0.1 -P 3307 -u callicoder -p callicoder`
