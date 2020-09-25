@@ -23,11 +23,11 @@ This should take you to the container's `mysql>` prompt and you can `SHOW databa
 
 
 Alternatively, create a new connection in MySQL Workbench using the credentials:
- Connection name: Pollster
- hostname: 127.0.0.1
- port: 3307
- username: callicoder
- password: callicoder
+ <br>Connection name: Pollster
+ <br>hostname: 127.0.0.1
+ <br>port: 3307
+ <br>username: callicoder
+ <br>password: callicoder
 
 NOTE: use '127.0.0.1' and not 'localhost'.
 
