@@ -19,15 +19,15 @@ use the command:
 2. `mysql -p`
 3. `Enter password: root`
 
-This should take you to the container's `mysql>` prompt and you can `SHOW databases;`, `USE polls;`, `SELECT * FROM users;`, etc.
+This should take you to the container's `mysql>` prompt and you can test queries such as `SHOW databases;`, `USE polls;`, `SELECT * FROM users;`, etc.
 
 
-Alternatively, create a new connection in MySQL Workbench using the credentials:
- <br>Connection name: Pollster
- <br>hostname: 127.0.0.1
- <br>port: 3307
- <br>username: callicoder
- <br>password: callicoder
+Alternatively, create a new connection in <b>MySQL Workbench</b> using the credentials:
+ <br><b>Connection name:</b> Pollster
+ <br><b>hostname:</b> 127.0.0.1
+ <br><b>port:</b> 3307
+ <br><b>username:</b> callicoder
+ <br><b>password:</b> callicoder
 
-NOTE: use '127.0.0.1' and not 'localhost'.
+<b>NOTE:</b> use '127.0.0.1' and not 'localhost'.
 
