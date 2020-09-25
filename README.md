@@ -13,12 +13,21 @@ A polling application which allows users to vote on topics. Demo can be found at
 at http://localhost:9090/
 
 #### MySQL Database
-Database information can be located via terminal or MySQL Workbench with the following credentials:  
-port: **3307**  
-database name: **polls**  
-database user: **callicoder**  
-database password: **callicoder**  
+Using the `doker-compose up` command, the MySQL database is spun up inside a container. To login to that container,
+use the command:  
+1. `docker exec -it pollster_db_1 bash` ('pollster_db_1' found with `docker container ls`)
+2. `mysql -p`
+3. `Enter password: root`
 
-Log into the MySQL container with the command:  
-`mysql -h 127.0.0.1 -P 3307 -u callicoder -p callicoder`
+This should take you to the container's `mysql>` prompt and you can `SHOW databases`; etc.
+
+
+Alternatively, create a new connection in MySQL Workbench using the credentials:
+ Connection nameL Pollster
+ hostname: 127.0.0.1
+ port: 3307
+ username: callicoder
+ password: callicoder
+
+NOTE: use '127.0.0.1' and not 'localhost'.
 
