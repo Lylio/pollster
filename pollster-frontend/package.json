@@ -1,5 +1,5 @@
 {
-  "name": "polling-app-client",
+  "name": "pollster-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
