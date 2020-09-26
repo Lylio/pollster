@@ -6,7 +6,7 @@
 ## Built with Spring Boot, React and MySQL
 
 ### Description
-A polling application which allows users to vote on topics. Demo can be found at (coming soon)
+A polling application which allows users to create polls on which other users can vote. Demo can be found at (coming soon)
 
 #### Docker-Compose Launch
 1. `docker-compose up` - this command will spin up the Spring Boot, React and MySQL-database containers. Access the app
