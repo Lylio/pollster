@@ -11,8 +11,8 @@ COPY .mvn .mvn
 # Copy the pom.xml file
 COPY pom.xml .
 
-# Build all the dependencies in preparation to go offline. 
-# This is a separate step so the dependencies will be cached unless 
+# Build all the dependencies in preparation to go offline.
+# This is a separate step so the dependencies will be cached unless
 # the pom.xml file has changed.
 RUN ./mvnw dependency:go-offline -B
 
@@ -23,7 +23,7 @@ COPY src src
 RUN ./mvnw package -DskipTests
 RUN mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 
-#### Stage 2: A minimal docker image with command to run the app 
+#### Stage 2: A minimal docker image with command to run the app
 FROM openjdk:8-jre-alpine
 
 ARG DEPENDENCY=/app/target/dependency
