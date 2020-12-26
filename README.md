@@ -6,7 +6,7 @@
 ## Built with Spring Boot, React and MySQL
 
 ### Description
-A polling application which allows users to create polls on which other users can vote. Demo can be found at (coming soon)
+A polling application which allows users to create polls on which other users can vote.
 
 #### Docker-Compose Launch
 1. `docker-compose up` - this command will spin up the Spring Boot, React and MySQL-database containers. Access the app
@@ -26,8 +26,8 @@ Alternatively, create a new connection in <b>MySQL Workbench</b> using the crede
  <br><b>Connection name:</b> Pollster
  <br><b>hostname:</b> 127.0.0.1
  <br><b>port:</b> 3307
- <br><b>username:</b> callicoder
- <br><b>password:</b> callicoder
+ <br><b>username:</b> polls
+ <br><b>password:</b> polls
 
 <b>NOTE:</b> use '127.0.0.1' and not 'localhost'.
 
