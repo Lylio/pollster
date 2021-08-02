@@ -1,4 +1,3 @@
-![](https://github.com/Lylio/image-repo/blob/master/logos/java.png?raw=true)
 ![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
 ![](https://github.com/Lylio/image-repo/blob/master/logos/react.png?raw=true)
 ![](https://github.com/Lylio/image-repo/blob/master/logos/mysql.png?raw=true)
